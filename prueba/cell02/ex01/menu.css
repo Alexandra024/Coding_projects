@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(209, 209, 239);
+
+}
+
+.cuadro_despleg{
+    width: 100%;
+    border: 5px dodgerblue;
+    border-style:inset;
+    border-radius: 5px;
+    background-color: rgb(232, 221, 242);
+}
+
+.lista-desplegable{
+    width: 300px;
+    text-align: center ;
+}

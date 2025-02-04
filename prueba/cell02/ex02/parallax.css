@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.ph1 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("https://hospitalveterinariodonostia.com/wp-content/uploads/2018/12/6-lugares-donde-puedes-ver-animales-exoticos-6.jpg");
+
+    /* text-align: center;
+    place-content: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+    color: green;
+    background-color: white;
+    display: inline-block;
+}
+
+/* Estilo para el bloque negro */
+.black-whole {
+    width: 100%;                /* Ancho del bloque */
+    height: 200px;               /* Alto del bloque */
+    background-color: black; 
+    
+    display: flex;
+    justify-content: center; /* centrar en eje x */
+    align-items: flex-end; /*eje y*/
+}
+
+.ph2 {
+    position: relative;
+    
+}
+ 
+.ph2 img{
+    width: 100%;
+}
+.ph2 p {
+    position: absolute; /*custom form*/
+    top: 50%;
+    right: 50%;
+    
+}
+
+

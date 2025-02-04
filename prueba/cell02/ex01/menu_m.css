@@ -1,0 +1,29 @@
+
+.h1 {
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+body {
+    font-family: 'Courier New', Monospace; /* Aplicar la fuente Roboto */
+    background-color: rgb(174, 132, 77); /* Color de fondo */
+
+}
+
+/* Cuadros de Secciones */
+section {
+padding: 20px;
+margin: 10px 0;
+background-color: white;
+border-radius: 5px;
+}
+
+h2 {
+color: #6464ab;
+}
+
+ul, li {
+list-style-type: square;
+padding: 0;
+}

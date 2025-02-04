@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas responsivas</title>
+
+    <style>
+        table {
+            width: 100%; /* Ocupa toda la pantalla */
+            height: 100vh; /*Ocupa toda la altura de la ventana)*/
+            border-collapse: collapse; /* Fusiona los bordes de las celdas */
+            margin: 10px; /* Márgenes alrededor de la tabla */
+        }
+
+        td , th {
+            border: 1px solid black; /* Borde alrededor de las celdas */
+            background-color: rgb(255, 219, 127); /* fondo */
+            color: rgb(28, 2, 18); /* texto */
+            padding: 25px; /* Espacio dentro de las celdas */
+            text-align: center; /* Alineación del texto */
+            font-size: xx-large; /* Tamaño grande de la fuente */
+        }
+
+        /* Hacer la tabla responsiva */
+        .table-wrapper {
+            overflow-x: auto;  /* Permite desplazamiento horizontal */
+            -webkit-overflow-scrolling: touch;  /* Habilita desplazamiento suave en dispositivos iOS */
+        }
+        
+
+        /* Estilos responsivos: */
+        @media (max-width: 600px) {
+            table, th, td {
+                font-size: 14px;  /* Reduce el tamaño de fuente en pantallas pequeñas */
+            }
+
+            th, td {
+                padding: 10px;  /* Reduce el espacio interno de las celdas en pantallas pequeñas */
+            }
+      
+        }
+
+        /*colores celdas*/
+        .c1{
+            background-color: brown;
+        }
+
+        .c2{
+            background-color: rgb(165, 42, 116);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="tabla_responsiva_css">
+        <table>
+            <thead> <!--esto son encbezados de la tabla-->
+                <tr>
+                    <th class="c1">dato 1 para tabla</th>
+                    <th class="c2">dato 2 para tabla</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Celda 1</td>
+                    <td>Celda 2</td>
+                </tr>
+                
+            </tbody>
+            
+        </table>
+    </div>
+
+</body>
+
+</html>
